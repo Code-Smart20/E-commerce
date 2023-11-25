@@ -8,46 +8,52 @@
     
     <!---boostrap icon cdn link-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="src/style.css">
 
 </head>
 
 <body>
     <header>
         <div class="header__container container">
-
-            <h2>Mens Corner</h2>
+            <a href="index.html"><h2>Mens Corner</h2></a>
 
             <nav>
                 <ul class="nav__container">
+            
+                    <li class="nav__container-item">
+                        <a href="index.html">Home</a>
+                    </li>
+            
+                    <li class="nav__container-item">
+                        <a href="about.html">About</a>
+                    </li>
+            
+            
+                    <li class="nav__container-item">
+                        <a href="shop.html">Shop</a>
+                    </li>
+            
+            
+                    <li class="nav__container-item">
+                        <a href="contact.html">Contact</a>
 
                     <li class="nav__container-item">
-                        <a href="features.html">FEATURES</a>
+                        <a href="blog.html">Blog</a>
                     </li>
-
-                    <li class="nav__container-item">
-                        <a href="features.html">CATALOQUES</a>
-                    </li>
-                    
-                    
-                    <li class="nav__container-item">
-                        <a href="features.html">LOGIN</a>
-                    </li>
-                    
-                    
-                    <li class="nav__container-item">
-                        <a href="features.html">LOGOUT</a>
-                    </li>
-
+            
                 </ul>
-                
+            
             
             </nav>
 
-            <div class="cart__container">
-                <i class="bi bi-bag-dash"></i>
-                <div class="cart__amount" id="cart__amount">0</div>
-            </div>
+            <a href="cart.html">
+                <div class="cart__container">
+                    <i class="bi bi-bag-dash"></i>
+                    <div class="cart__amount" id="cart__amount">0</div>
+                </div>
+            </a>
+
+          
 
         </div> 
     </header>
@@ -73,6 +79,12 @@
             
             </section>
         </div>
+
+        <section class="feature">
+            <div class="feature__container container" id="feature__container">
+
+            </div>
+        </section>
        
     </main>
 
@@ -95,7 +107,9 @@
 
     </footer>
 
-    <script src="main.js"></script>
+    <script src="src/data.js"></script>
+    <script src="src/feature.js"></script>
+    <script src="src/main.js"></script>
 
 </body>
 </html>
